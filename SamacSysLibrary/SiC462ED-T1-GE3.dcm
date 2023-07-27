@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SiC462ED-T1-GE3
+D VISHAY - SIC462ED-T1-GE3 - DC-DC Switching Buck Regulator, Adjustable, 4.5V to 60V in, 800 mV-48V/6A out, PowerPAK MLP55-27
+K
+F https://www.vishay.com/docs/65124/sic46x.pdf
+$ENDCMP
+#
+#End Doc Library

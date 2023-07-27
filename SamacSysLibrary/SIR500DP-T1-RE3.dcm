@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIR500DP-T1-RE3
+D MOSFET N-CHANNEL 30-V (D-S)
+K
+F https://www.vishay.com/docs/66840/sir500dp.pdf
+$ENDCMP
+#
+#End Doc Library

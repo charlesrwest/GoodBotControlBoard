@@ -1,0 +1,122 @@
+C0603C471K2RACAUTO ->  470 pF cap 200v
+06035C182KAT2A -> 1800 pF cap 50 v
+C0603C222J5RACAUTO -> 2200 pF cap 50 v
+C0805C333K1RECAUTO -> .033 uF
+885012207100 -> .22 uf cap
+C1608X7R1V474K080AE -> .47 uf cap
+CL10B104KB8NNNC -> .1 uf cap 50 v
+GRM155R61H105KE05D -> 1 uf 50v
+GRM188R6YA225MA12D -> 2.2 uf cap
+C3216X5R1V226M160AC -> 22 uf cap
+CL21A475KLCLQNC -> 4.7uF 35 v
+865080543009 -> 47 uf cap
+865080545011  -> 68 uf 35 v cap
+865080663020 -> 1000uF cap
+
+
+
+CRCW25123R30FKEG -> 3.3 ohm resistor
+RK73B2BTTD100J -> 10 ohm resistor
+ESR03EZPJ220 -> 22 ohm anti surge resistor
+CRCW06032K00FKEAC -> 2k resistor
+CR0805-FX-8661ELF -> 8.66K resistor
+CRCW080510K0FKEAC -> 10k resistor
+CR0805-FX-1212ELF -> 12.1k resistor
+RC0603FR-1052K3L -> 52.3k resistor
+RT0603CRE0760K4L -> 60.4k resistor
+CR0805-FX-1023ELF -> 102k resistor
+ERJ-6ENF2213V -> 221k resistor
+ERJ-3EKF2323V -> 232k resistor
+CR0805-FX-5603ELF -> 560k resistor 
+
+
+GS1G_R1_00001  -> General purpose diode
+
+10118192-0001LF -> USB micro
+PTS810SJM250SMTRLFS -> momentary switch
+
+Need:
+Hall sensor connectors from motor
+
+Cables using SPA-001T-P0.5
+
+
+
+
+
+1902547 for battery terminal connector
+865080545011 for smoothing cap at battery charger
+
+Polarized capacitors are showing up as non polarized symbols, so double check that positive/negative are being correctly connected.
+
+TIM1: (PE11 (TIM1_CH2), PE13 (TIM1_CH3), PE14 (TIM1_CH4))
+TIM3: (PA6 (TIM3_CH1), PA7 (TIM3_CH2), PB0 (TIM3_CH3))
+TIM4: (PD12 (TIM4_CH1), PD13 (TIM4_CH2), PD14 (TIM4_CH3))
+
+PC11 -> TIM1_CH1, PE6 -> TIM3_CH4, PB9 -> TIM4_CH4
+
+//Timers: 1, 3, 4
+TIM1 PA8-11, PB3, PB6, PC8-11, PE9, PE11, PE13, PE14
+TIM3 PA6, PA7, PB0, PB1, PB4, PC6-9, PE3-6
+TIM4 PB6-9, PD12-15
+
+Pin assignments:
+//EN for motors
+Motor 0: PB9 (TIM4_CH4), PC11 (TIM1_CH1), PE6 (TIM3_CH4)
+Motor 1: PD12 (TIM4_CH1), PD13 (TIM4_CH2), PD14 (TIM4_CH3)
+Motor 2: PE11 (TIM1_CH2), PE13 (TIM1_CH3), PE14 (TIM1_CH4)
+Motor 3: PA6 (TIM3_CH1), PA7 (TIM3_CH2), PB0 (TIM3_CH3)
+
+//IN for motors
+Motor 0: PC10, PE4, PE5
+Motor 1: PD9, PD10, PD11
+Motor 2: PE15, PB10, PB11
+Motor 3: PB1, PB2, PF6
+
+//HALL for motors
+Motor 0: PF3, PF4, PF5
+Motor 1: PC6, PC7, PD8
+Motor 2: PB12, PB13, PB14
+Motor 3: PF7, PE7, PE8
+
+//OSCILLATOR
+PF0
+PF1
+
+//NRST
+PF2
+
+//USB
+PA11 (PA9) USB_DM
+PA12 (PA11) USB_DP
+
+//Programming
+PA13 SWDIO
+PA14 SWCLK/BOOT
+
+//Nano USART
+PB6 USART1_TX
+PB7 USART1_RX
+
+//GPS USART
+PD5 USART2_TX
+PD6 USART2_RX
+
+//Charger ADC
+PA1
+
+//Battery ADC
+PA2 
+
+//charger PWM
+PA4 TIM14_CH1
+
+//Main power control
+PA3
+
+//Need 12 pins for hall sensors
+
+Motor:
+V, hall A -> green wires
+U, hall B -> blue wires
+W, hall C -> yellow wires

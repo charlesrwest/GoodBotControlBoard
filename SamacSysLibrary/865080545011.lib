@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 865080545011
+#/467665/1170448/2.50/2/3/Capacitor
+DEF 865080545011 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "865080545011" 350 150 50 H V L CNN
+F2 "CAPAE660X770N" 350 50 50 H I L CNN
+F3 "https://www.we-online.com/katalog/datasheet/865080545011.pdf" 350 -50 50 H I L CNN
+F4 "Wurth Elektronik 68uF 35 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 6.3 (Dia.) x 7.55mm" 350 -150 50 H I L CNN "Description"
+F5 "7.7" 350 -250 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "865080545011" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-865080545011" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865080545011?qs=0KOYDY2FL2%252BUWN8HP4Q2UA%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

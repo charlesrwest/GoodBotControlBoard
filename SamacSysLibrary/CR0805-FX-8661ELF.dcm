@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CR0805-FX-8661ELF
+D Thick Film Resistors - SMD 8.66K 1%
+K
+F https://www.bourns.com/pdfs/chpreztr.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FERD20H100SB-TR
+D STMicroelectronics FERD20H100SB-TR SMT Diode, 100V 20A, 2+Tab-Pin DPAK
+K
+F https://componentsearchengine.com/Datasheets/1/FERD20H100SB-TR.pdf
+$ENDCMP
+#
+#End Doc Library

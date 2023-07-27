@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ1084CD-3.3TRG1
+D DiodesZetex AZ1084CD-3.3TRG1, LDO Voltage Regulator, 5A, 3.3 V, Maximum of 12 Vin, 3-Pin T0-252
+K
+F https://www.diodes.com/assets/Datasheets/AZ1084C.pdf
+$ENDCMP
+#
+#End Doc Library

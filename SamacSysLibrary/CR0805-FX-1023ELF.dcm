@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CR0805-FX-1023ELF
+D Bourns Chip Resistors CR0805 series 1023
+K
+F https://www.bourns.com/pdfs/chpreztr.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM155R61H105KE05D
+D Chip Capacitor value 105
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf
+$ENDCMP
+#
+#End Doc Library

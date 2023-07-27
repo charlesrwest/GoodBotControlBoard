@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRCW06032K00FKEAC
+D D11/CRCW0603-C 100 2K0 1% ET1
+K
+F http://www.vishay.com/docs/28773/crcwce3.pdf
+$ENDCMP
+#
+#End Doc Library

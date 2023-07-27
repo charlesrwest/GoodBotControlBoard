@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CR0805-FX-5603ELF
+D Thick Film Resistors - SMD 560K 1%
+K
+F https://www.bourns.com/pdfs/chpreztr.pdf
+$ENDCMP
+#
+#End Doc Library

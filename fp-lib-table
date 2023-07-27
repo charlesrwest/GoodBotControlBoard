@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SamacSysLibrary")(type "KiCad")(uri "${KIPRJMOD}/SamacSysLibrary")(options "")(descr ""))
+)
