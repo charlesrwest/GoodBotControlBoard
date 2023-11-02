@@ -1,0 +1,25 @@
+Drill report for GoodBotControlBoard.kicad_pcb
+Created on Mon 31 Jul 2023 10:18:01 PM EDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'GoodBotControlBoard.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (397 holes)
+    T2  1.000mm  0.0394"  (4 holes)
+    T3  1.300mm  0.0512"  (6 holes)
+    T4  1.400mm  0.0551"  (12 holes)
+
+    Total plated holes count 419
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

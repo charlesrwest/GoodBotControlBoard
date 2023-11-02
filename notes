@@ -1,3 +1,19 @@
+NRST on the MCU should have a resistor to pull it high
+Need to reduce the capacitance of the SWDCLK line because it interferes with SWD communication.
+VS on the motor board chips is not connected to +28 like it is suppose to be
+Should probably change the gate resistors on the mosfets to 10 ohm
+Should increase resistance of voltage dividers for ADC and remove the diode.
+Setup current monitoring for charger with max current 8A (Connect to PA5)
+Replace headers with through hole versions
+Rotate 5V power out connection 90 degrees
+Rotate battery and charger outs 180 degrees
+
+//EN for motors
+Motor 0: PB9 (TIM4_CH4, 9), PC11 (TIM1_CH1 <- wrong.  Change to PC8, 2), PE6 (TIM3_CH4, 1)
+Motor 1: PD12 (TIM4_CH1, 2), PD13 (TIM4_CH2, 2), PD14 (TIM4_CH3, 2)
+Motor 2: PE11 (TIM1_CH2, 1), PE13 (TIM1_CH3, 1), PE14 (TIM1_CH4, 1)
+Motor 3: PA6 (TIM3_CH1, 1), PA7 (TIM3_CH2, 1), PB0 (TIM3_CH3, 1)
+
 C0603C471K2RACAUTO ->  470 pF cap 200v
 06035C182KAT2A -> 1800 pF cap 50 v
 C0603C222J5RACAUTO -> 2200 pF cap 50 v
@@ -108,15 +124,23 @@ PA1
 //Battery ADC
 PA2 
 
+//Charger current measurement
+PA5 <- TODO
+
 //charger PWM
 PA4 TIM14_CH1
 
 //Main power control
 PA3
 
-//Need 12 pins for hall sensors
-
 Motor:
 V, hall A -> green wires
 U, hall B -> blue wires
 W, hall C -> yellow wires
+
+Yellow
+Green
+Blue
+
+Final board dimensions
+177.8 mm x 154.432 mm

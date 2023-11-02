@@ -1868,8 +1868,8 @@
     (property "Arrow Price/Stock" "" (at 152.4 1127 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid cbde44b0-91c9-4bfe-932a-89f7b711db58))
-    (pin "2" (uuid bf3f49fa-6a42-495c-a2e3-7471bf36ba22))
+    (pin "1" (uuid dfcfb0f7-b77f-4893-8946-4fb797db8c7a))
+    (pin "2" (uuid 3270df99-3387-4149-801c-70156c95583f))
     (instances
       (project "GoodBotControlBoard"
         (path "/0cfc3c0b-2fbd-4326-a489-33d79058d1de/55f76169-3e1f-4d54-b56d-ecca2d375b2b"
@@ -2940,8 +2940,8 @@
     (property "Arrow Price/Stock" "" (at -928.626 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid b7809573-0832-4e31-813c-0c96aadc853d))
-    (pin "2" (uuid fd3d8828-fcaf-47cf-b6e0-81d734b6cc52))
+    (pin "1" (uuid a5653fdc-9f55-450c-8524-e3002e8e50be))
+    (pin "2" (uuid 60ce9fad-8366-4b80-a659-76417aab1962))
     (instances
       (project "GoodBotControlBoard"
         (path "/0cfc3c0b-2fbd-4326-a489-33d79058d1de/55f76169-3e1f-4d54-b56d-ecca2d375b2b"
@@ -3187,8 +3187,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/cr0805-fx-5603elf/bourns?region=nac" (at 1063.754 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 83bf455e-d798-4ec9-8ad5-368d17d085b2))
-    (pin "2" (uuid 8eb87178-bdb2-4802-b018-8e1fc683ddf1))
+    (pin "1" (uuid b9f4dbd7-4662-4215-af12-2981e0ae35b3))
+    (pin "2" (uuid d5f459f7-bb85-40d7-8f32-4687ae053af7))
     (instances
       (project "GoodBotControlBoard"
         (path "/0cfc3c0b-2fbd-4326-a489-33d79058d1de/55f76169-3e1f-4d54-b56d-ecca2d375b2b"
@@ -3306,17 +3306,17 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltc7004emsepbf/analog-devices?region=nac" (at 117.475 1118.11 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid dcc5f027-77b9-46e1-9f78-112ba8ce7512))
-    (pin "10" (uuid 6fe213ca-b3c8-4c92-a2c3-b079fd25dbc2))
-    (pin "11" (uuid 2d3c7787-83a6-41d3-a845-283156d9349f))
-    (pin "2" (uuid 1274c1a2-5aea-432a-bf9d-831dbbd1a8b0))
-    (pin "3" (uuid d4e29590-be81-443c-9e57-d346f63980e3))
-    (pin "4" (uuid 3cbb86e8-988e-462e-a24a-f1d288a8eebd))
-    (pin "5" (uuid fb41931d-9e23-4b65-b638-ec6b90905ce4))
-    (pin "6" (uuid fcc4d2d4-0c51-4f49-9b69-afef7fa0eede))
-    (pin "7" (uuid ce942de6-fadc-4a3f-9944-97f5b427c904))
-    (pin "8" (uuid 5251f916-4696-4592-ae19-44cd06ade5da))
-    (pin "9" (uuid e930cc6a-d392-4974-ac48-9136ce8aaa18))
+    (pin "1" (uuid 36d5a984-20a2-475d-a44e-89c1caf3f72e))
+    (pin "10" (uuid ef86407a-ae93-4f70-bc42-3f4ce5c4008d))
+    (pin "11" (uuid aaf2ea17-f99e-48fc-b801-a57a033d3fdd))
+    (pin "2" (uuid 535be9d8-b2e9-41ff-be36-5386008370b7))
+    (pin "3" (uuid a9694d80-8602-42b1-ae5c-a4d5ece0f102))
+    (pin "4" (uuid e0aa11fd-5661-4598-b781-e11babb83dc7))
+    (pin "5" (uuid 100fa579-0e18-4417-ab0b-1a442d0025cf))
+    (pin "6" (uuid 24b298bf-eea3-4200-8f7f-292f4ffecf3e))
+    (pin "7" (uuid b55bb678-68d4-4e53-8759-ada12cb66212))
+    (pin "8" (uuid 43166dfb-be0b-443f-b0bc-b8a1acedcf81))
+    (pin "9" (uuid c722a25c-abd9-4851-b786-e7ef8bff7be1))
     (instances
       (project "GoodBotControlBoard"
         (path "/0cfc3c0b-2fbd-4326-a489-33d79058d1de/55f76169-3e1f-4d54-b56d-ecca2d375b2b"
@@ -3434,8 +3434,8 @@
     (property "Arrow Price/Stock" "" (at 83.82 -917.196 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 92fe7d1f-3033-48cc-877d-69f83d118ae6))
-    (pin "2" (uuid 09d14383-904a-40d2-bbb5-12793f0dad03))
+    (pin "1" (uuid 7527c08a-a674-4e49-bbf2-76222884fea4))
+    (pin "2" (uuid adfd83a9-6a0d-4077-8aeb-51e017e789f9))
     (instances
       (project "GoodBotControlBoard"
         (path "/0cfc3c0b-2fbd-4326-a489-33d79058d1de/55f76169-3e1f-4d54-b56d-ecca2d375b2b"

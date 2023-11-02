@@ -1,4 +1,4 @@
-21919507908945278
+21921213043850120
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83454,8 +83454,8 @@ Connector
 11
 11
 SamacSysLibrary
-ABLS8000MHZB4T
-ABLS-8.000MHZ-B4-T-2
+ABLS8000MHZB4T2
+ABLS-8.000MHZ-B-4-T2-1
 Crystal or Oscillator
 0
 2
@@ -83475,8 +83475,15 @@ Capacitor
 2
 2
 SamacSysLibrary
+C0805
+C0805
+Capacitor
+0
+2
+2
+SamacSysLibrary
 CAPAE660X550N
-865080343008
+865080543009-1
 Capacitor Polarised
 0
 2
@@ -83609,7 +83616,7 @@ Integrated Circuit
 144
 SamacSysLibrary
 RESC1608X55N
-RC0603
+RT0603C
 Resistor
 0
 2
