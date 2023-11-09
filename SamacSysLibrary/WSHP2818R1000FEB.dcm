@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WSHP2818R1000FEB
+D Vishay 100m 2818 Metal Strip Surface Mount Fixed Resistor +/-1% 10W - WSHP2818R1000FEB
+K
+F https://www.vishay.com/docs/30347/wshp2818.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,12 +1,13 @@
-NRST on the MCU should have a resistor to pull it high
-Need to reduce the capacitance of the SWDCLK line because it interferes with SWD communication.
-VS on the motor board chips is not connected to +28 like it is suppose to be
-Should probably change the gate resistors on the mosfets to 10 ohm
-Should increase resistance of voltage dividers for ADC and remove the diode.
-Setup current monitoring for charger with max current 8A (Connect to PA5)
+NRST on the MCU should have a resistor to pull it high <- done, 
+Need to reduce the capacitance of the SWDCLK line because it interferes with SWD communication. <- done, 
+VS on the motor board chips is not connected to +28 like it is suppose to be <- done, 
+Should probably change the gate resistors on the mosfets to 10 ohm <- done, 
+Should remove the diodes from the voltage divider. <- done
+Setup current monitoring for charger with max current 8A (Connect to PA5) <- done
 Replace headers with through hole versions
 Rotate 5V power out connection 90 degrees
-Rotate battery and charger outs 180 degrees
+Rotate battery and charger outs 180 degrees <- done
+Change motor 0 PC11 to PC8 <- done
 
 //EN for motors
 Motor 0: PB9 (TIM4_CH4, 9), PC11 (TIM1_CH1 <- wrong.  Change to PC8, 2), PE6 (TIM3_CH4, 1)
@@ -30,6 +31,7 @@ CL21A475KLCLQNC -> 4.7uF 35 v
 865080663020 -> 1000uF cap
 
 
+WSHP2818R1000FEB .1 ohm resistor
 
 CRCW25123R30FKEG -> 3.3 ohm resistor
 RK73B2BTTD100J -> 10 ohm resistor
