@@ -146,3 +146,11 @@ Blue
 
 Final board dimensions
 177.8 mm x 154.432 mm
+
+Replace motor power connectos with bigger ones.  The struggle to insert the wires is getting old.
+Should swap out PowerIn sample point for 3.3v+ point and reorder so that it's in the same order as the programmer for easy connection.
+The connection from the output of the PowerIn -> +28 volts mosfet is laughably narrow (and exploded under high load) and needs to be expanded to match the other +28 volts channels.  Until then, a bypass needs to be soldered in.
+
+Bigger linear reg for mcu
+
+passive t filters
